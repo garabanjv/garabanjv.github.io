@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Soporte Técnico</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome para íconos -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Soporte Técnico Moderno</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrusel 3D -->
+  <div id="contentContainer" class="trans3d">
+    <section id="carouselContainer" class="trans3d">
+      <figure id="item1" class="carouselItem trans3d">
+        <div class="carouselItemInner trans3d">
+           <img src="img/11.webp" alt="Imagen 1">
+           <span class="tag">Soporte Remoto</span>
+        </div>
+      </figure>
+      <figure id="item2" class="carouselItem trans3d">
+        <div class="carouselItemInner trans3d">
+          <img src="img/2.webp" alt="Imagen 2">
+          <span class="tag">Redes & Seguridad</span>
+        </div>
+      </figure>
+      <figure id="item3" class="carouselItem trans3d">
+        <div class="carouselItemInner trans3d">
+          <img src="https://via.placeholder.com/320x130?text=Desarrollo+Web" alt="Imagen 3">
+          <span class="tag">Desarrollo Web</span>
+        </div>
+      </figure>
+      <figure id="item4" class="carouselItem trans3d">
+        <div class="carouselItemInner trans3d">
+          <img src="https://via.placeholder.com/320x130?text=UX+%2F+UI" alt="Imagen 4">
+          <span class="tag">UX / UI</span>
+        </div>
+      </figure>
+      <figure id="item5" class="carouselItem trans3d">
+        <div class="carouselItemInner trans3d">
+          <img src="https://via.placeholder.com/320x130?text=Atenci%C3%B3n+24%2F7" alt="Imagen 5">
+          <span class="tag">Soporte 24/7</span>
+        </div>
+      </figure>
+      <figure id="item6" class="carouselItem trans3d">
+        <div class="carouselItemInner trans3d">
+          <img src="https://via.placeholder.com/320x130?text=Ciberseguridad" alt="Imagen 6">
+          <span class="tag">Ciberseguridad</span>
+        </div>
+      </figure>
+    </section>
+  </div>
+
+  <!-- Barra Separadora -->
+  <div class="separator"></div>
+
+  <!-- Servicios -->
+  <section class="py-5" id="services">
+    <div class="container">
+      <h2 class="text-center mb-5 text-primary">Nuestros Servicios</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box text-center p-4 rounded shadow bg-white">
+            <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+            <h5>Soporte Remoto</h5>
+            <p>Resolvemos problemas técnicos en tiempo real.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box text-center p-4 rounded shadow bg-white">
+            <i class="fas fa-tools fa-3x text-primary mb-3"></i>
+            <h5>Mantenimiento Preventivo</h5>
+            <p>Optimizamos tus equipos para evitar fallos.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box text-center p-4 rounded shadow bg-white">
+            <i class="fas fa-headset fa-3x text-primary mb-3"></i>
+            <h5>Atención al Cliente</h5>
+            <p>Asistencia personalizada las 24 horas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Barra Separadora -->
+  <div class="separator"></div>
+
+ <!-- Testimonios -->
+  <section class="py-5 bg-transparent" id="testimonials">
+    <div class="container">
+      <h2 class="text-center mb-5 text-primary">Testimonios</h2>
+      <div class="testimonial-carousel">
+        <div class="row flex-nowrap overflow-hidden">
+          <div class="col-md-4 testimonial-card">
+            <div class="card shadow-sm bg-white">
+              <img src="img/desarrollo-web-ciencia-activa.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Persona 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Juan Pérez</h5>
+                <p class="card-text small text-muted">Ingeniero de Software</p>
+                <p class="card-text">"Excelente servicio, muy profesionales."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-card">
+            <div class="card shadow-sm bg-white">
+              <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Persona 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">María López</h5>
+                <p class="card-text small text-muted">Diseñadora Gráfica</p>
+                <p class="card-text">"Rápida respuesta y solución efectiva."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-card">
+            <div class="card shadow-sm bg-white">
+              <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Persona 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Carlos Ramírez</h5>
+                <p class="card-text small text-muted">Empresario</p>
+                <p class="card-text">"Muy satisfecho con el soporte técnico."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-card">
+            <div class="card shadow-sm bg-white">
+              <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Persona 4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Laura Gómez</h5>
+                <p class="card-text small text-muted">Gerente de Proyectos</p>
+                <p class="card-text">"Recomiendo totalmente sus servicios."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-card">
+            <div class="card shadow-sm bg-white">
+              <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Persona 5">
+              <div class="card-body text-center">
+                <h5 class="card-title">Roberto Torres</h5>
+                <p class="card-text small text-muted">Desarrollador Web</p>
+                <p class="card-text">"Gran equipo de soporte técnico."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 testimonial-card">
+            <div class="card shadow-sm bg-white">
+              <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Persona 6">
+              <div class="card-body text-center">
+                <h5 class="card-title">Ana Martínez</h5>
+                <p class="card-text small text-muted">Consultora TI</p>
+                <p class="card-text">"Solucionaron mi problema en minutos."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="py-5 bg-light" id="contact">
+    <div class="container">
+      <h2 class="text-center mb-4 text-primary">Contáctanos</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="shadow p-4 bg-white rounded">
+            <div class="mb-3"><input type="text" class="form-control" placeholder="Tu Nombre" required></div>
+            <div class="mb-3"><input type="email" class="form-control" placeholder="Tu Email" required></div>
+            <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Tu Mensaje"></textarea></div>
+            <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Soporte Técnico Moderno. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Librerías necesarias -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- GSAP 3 (necesario para el efecto 3D) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="script-fixed.js"></script> <!-- o reemplaza tu script.js con este contenido -->
+  
+  
+  
+  
+  
+  <!-- Script principal CORREGIDO: asegúrate que la ruta es correcta -->
+  <script src="js/script.js"></script>
+</body>
+</html>
